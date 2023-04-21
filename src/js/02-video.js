@@ -1,6 +1,5 @@
 import Player from '@vimeo/player';
 const seconds = localStorage.getItem("videoplayer-current-time") || 0;
-console.log(Player)
  const iframe = document.querySelector('iframe');
     const player = new Player(iframe);
 
